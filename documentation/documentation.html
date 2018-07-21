@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pavane Documentation</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="" />
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="">
+
+    <!--Core CSS -->
+
+    <link href="../HTML//bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="../HTML/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+
+
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+
+    <header>
+
+        <div class="container">
+
+
+
+
+
+            <div class="header-top">
+                <div class="logo">
+                    <a href="#">
+                        <h1>
+                            String Theme
+                        </h1>
+                    </a>
+                </div>
+
+
+                <div class="right-console">
+                    <a href="mailto:themestring@gmail.com?Subject=Pavane%20Coming%20Soon" target="_top">Send Mail</a>
+                    <a href="http://52.40.104.181/project/Pavane-Coming-Soon/">Show Demo</a>
+                </div>
+
+
+            </div>
+
+
+
+
+
+
+            <div class="heading-main">
+                <h1>
+                    Pavane Coming Soon - Documentation
+                </h1>
+            </div>
+
+            <!--Tab menu -->
+            <div class="tab-menu">
+
+                <ul>
+                    <li><a href="#1"><i class="fa fa-info-circle" aria-hidden="true"></i>Overview</a></li>
+                    <li><a href="#2"><i class="fa fa-eye" aria-hidden="true"></i>View</a></li>
+                    <li><a href="#3"><i class="fa fa-folder-open" aria-hidden="true"></i>Main Structure</a></li>
+                    <li><a href="#5"><i class="fa fa-header" aria-hidden="true"></i>Header & Footer</a></li>
+                    <li><a href="#6"><i class="fa fa-puzzle-piece" aria-hidden="true"></i>Sections</a></li>
+                    <li><a href="#7"><i class="fa fa-cogs" aria-hidden="true"></i>Theme Configruation</a></li>
+                    <li><a href="#8"><i class="fa fa-eye" aria-hidden="true"></i>CSS</a></li>
+                    <li><a href="#9"><i class="fa fa-plug" aria-hidden="true"></i>JavaScript and Countdown</a></li>
+                    <li><a href="#10"><i class="fa fa-magic" aria-hidden="true"></i>Source & Credits</a></li>
+                </ul>
+
+            </div>
+            <!--Tab menu -->
+
+
+
+
+
+        </div>
+    </header>
+
+
+    <div class="content">
+        <div class="wrapper-container container">
+
+            <div class="container container-section" id="1">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2 class="container-section-title">Overview</h2>
+                        <p>The purposes of this theme are impove consept of coming soon page and to have time until you build your website. Moreover you may use it for events. In addition you may use this theme for maintenance mode for you website and for many purposes. You may add or delete the part you wish to page.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container container-section" id="2">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2 class="container-section-title">View</h2>
+                        <img src="" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="container container-section" id="3">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2 class="container-section-title">Main Structure</h2>
+                        <p>Main folders and files stracture are like that</p>
+                        <pre class="prettyprint">
+<span class="pln">  HTML</span><span class="pun">/</span><span class="pln"></span>
+  <span class="pun">├──</span><span class="pln"> assests</span><span class="pun">/</span><span class="pln"></span>
+  <span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> includes/</span>
+  <span class="pun">│</span><span class="pln">  </span> <span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> class.phpmailer.php</span>
+  <span class="pun">│</span><span class="pln">  </span> <span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> class.pop3.php</span>
+  <span class="pun">│</span><span class="pln">  </span> <span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> class.smtp.php</span>
+  <span class="pun">│</span><span class="pln">  </span> <span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> mailchimp.class.php</span>
+  <span class="pun">│</span><span class="pln">  </span> <span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> smtp.mailer.php</span>
+  <span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> contact-form.php</span>
+  <span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> subscribe.php</span>
+  <span class="pun">├──</span><span class="pln"> bootstrap/<span class="pln"></span>
+  <span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> css/</span>
+  <span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> fonts/</span>
+  <span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> js/</span>
+  <span class="pun">├──</span><span class="pln"> css</span><span class="pun">/</span><span class="pln"></span>
+  <span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> style-responsive.css</span>
+  <span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> style.css</span>
+  <span class="pun">├──</span><span class="pln"> font-awesome</span><span class="pun">/</span><span class="pln"></span>
+  <span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> css/</span></span>
+  <span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> fonts/</span>
+  <span class="pun">├──</span><span class="pln"> images</span><span class="pun">/</span><span class="pln"></span>
+  <span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> bg/</span>
+  <span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> our-customer/</span>
+  <span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> our-team/</span>
+  <span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> portfolio/</span>
+  <span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> services/</span>
+  <span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> svg-loaders/</span>
+  <span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> logo.png</span>
+  <span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> logo.svg</span>
+  <span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> map-marker.png</span>
+  <span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> favicon.ico</span>
+  <span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> up.svg</span>
+  <span class="pun">├──</span><span class="pln"> js</span><span class="pun">/</span><span class="pln"></span>
+  <span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> custom.js</span>
+  <span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> jquery-2.2.3.min.js</span>
+  <span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> jquery.filterizr.js</span>
+  <span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> jquery.gmap.js</span>
+  <span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> jquery.validate.min.js</span>
+  <span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> nicescroll.js</span>
+  <span class="pun">│</span><span class="pln">   </span><span class="pun">├──</span><span class="pln"> particles.min.js</span>
+  <span class="pun">├──</span><span class="pln"> index.html</span>
+  <span class="pun">├──</span><span class="pln"> index-preloader.html</span>
+
+
+                       </pre>
+                        <br>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container container-section" id="5">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2 class="container-section-title">Header & Footer</h2>
+                        <h3>Header</h3>
+                        <br>
+                        <p>header is at this part and you can change its tabs or delete.</p>
+                        <img class="img img-responsive" src="img/hefo/h1.png">
+                        <br>
+                        <h3>Footer</h3>
+                        <p>You can add your social accounts here.</p>
+                        <img class="img img-responsive" src="img/hefo/f1.png">
+                        <br><br>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container container-section" id="6">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2 class="container-section-title">Sections</h2>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container container-section" id="7">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2 class="container-section-title">Theme Configruation</h2>
+                        <h3>Counter Down</h3>
+                        <p>You must type your on this part at this directory: <strong style="font-size:16px;">"HTML/js/custom.js"</strong></p>
+                        <br>
+                        <img class="img img-responsive" src="img/countdown/c1.png">
+                        <br><br>
+                        <h3>Google Map</h3>
+                        <br><br>
+                        <p>1. Follow this link and click on Get a key:</p>
+                        <img src="img/map/1.png">
+                        <br><br><br>
+                        <p>2. Agree with the service Terms of Service:</p>
+                        <img src="img/map/2.png">
+                        <br><br><br>
+                        <p>3. Choose a name for your new key and specify the websites on which the key usage will be allowed. If you don’t need any website restriction, just put an * in that field (but don’t leave it blank, unless you are having issues with *! See comments for further information). Then click on Create:</p>
+                        <img src="img/map/3.png">
+                        <br><br><br>
+                        <p> Write down your brand new API key, and click OK</p>
+                        <img src="img/map/4.png">
+                        <br><br><br>
+                        <p>5.Locate the file that contains the Google Maps script code on your website, and append your API key to it as a parameter:</p>
+                        <code>
+                    &lt;script src="//maps.googleapis.com/maps/api/js?key=YOUR_API_KEY" async="" defer="defer" type="text/javascript">&lt;/script>
+                </code>
+                        <br><br>
+                        <p>6. Your API key should be up and running within 5 minutes.</p>
+                        <br><br>
+                        <h3>starlight.js</h3>
+                        <br><br>
+                        <h4>1.shape</h4>
+                        <p>
+                            Could be either "circle" or "square"
+                        </p>
+                        <h4>2.initial_size</h4>
+                        <p>
+                            The starting size of the stars when they spawn (eg "32px")
+                        </p>
+                        <h4>3.final_size</h4>
+                        <p>
+                            The final size of the stars after expansion. Could also be the same as initial size if you don't want the stars to expand (eg "64px")
+                        </p>
+                        <h4>
+                            4.expand_speed
+                        </h4>
+                        <p>
+                            How long the stars take to expand/shrink (in CSS time. eg "1s")
+                        </p>
+                        <h4>
+                            5.fade_delay
+                        </h4>
+                        <p>
+                            The delay until the stars begin to fade out (in CSS time. eg "1s")
+                        </p>
+                        <h4>
+                            6.fade_duration
+                        </h4>
+                        <p>
+                            Possible colors of the stars, each of which will be randomly chosen during spawning. Can be any CSS complient color (eg. "rgba(255,255,255,0.5)")
+                        </p>
+                        <h4>7.colors</h4>
+                        <p>
+                            Possible colors of the stars, each of which will be randomly chosen during spawning. Can be any CSS complient color (eg. "rgba(255,255,255,0.5)")
+                        </p>
+                        <h4>8.frequency</h4>
+                        <p>
+                            Possible colors of the stars, each of which will be randomly chosen during spawning. Can be any CSS complient color (eg. "rgba(255,255,255,0.5)")
+                        </p>
+                        <h4>9.density</h4>
+                        <p>
+                            How many stars will spawn per wave (eg 5)
+                        </p>
+                        <h4>10.keep_lit</h4>
+                        <p>
+                            true or false: Whether the stars will fade out
+                        </p>
+                        <h4>11.rotation</h4>
+                        <p>
+                            true or false : Whether the stars will rotate
+                        </p>
+                        <h4>12.coverage</h4>
+                        <p>
+                            How much of the element's area the stars will show up in (0-1 eg 0.75 will cover 75%)
+                        </p>
+                        <h4>13.target_class</h4>
+                        <p>
+                            Elements that the stars will spawn in. Can be any class, element, or id (eg ".starlight")
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container container-section" id="8">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2 class="container-section-title">CSS</h2>
+                        <p>
+                            CSS files are at this directory: <strong style="font-size:16px;">HTML/CSS/</strong><br>
+                            <br>
+                            <b>style.css</b><br>
+                            <b>style-responsive.css</b><br>
+                            <b>menu.css</b>
+                            <br><br> General format of css is like foloving schema:
+                        </p>
+                        <p>
+                            1. Genel Style
+                            <br> 2. Common styles
+                            <br> 3. Intro
+                            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.1 Subscribe Button
+                            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.2 Countdown
+                            <br> 4. Services
+                            <br> 5. New Site
+                            <br> 6. Subscribe
+                            <br> 7. Portfolio
+                            <br> 8. About Us
+                            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8.1 Skills
+                            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8.2 Why Us
+                            <br> 9. Our Customers
+                            <br> 10. Features
+                            <br> 11. Team
+                            <br> 12. Contact
+                            <br> 13. Map
+                            <br> 14. Footer
+                            <br> 15. Menu >> "menu.css"
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container container-section" id="9">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2 class="container-section-title">JavaScript</h2>
+                        <h3>Ajax</h3>
+                        Ajax settings are at <strong style="font-size:16px">HTML/js/ajax.js</strong>
+                        <img class="img img-responsive" src="img/ajax/j1.png">
+                        <br><br>
+                        <img class="img img-responsive" src="img/ajax/j2.png">
+                        <br><br>
+                        <h3>custom.js</h3>
+                        <br>
+                        <p>
+                            You can write your javascript code to <br><strong style="font-size:16px;">HTML/js/custom.js</strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container container-section" id="10">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2 class="container-section-title">Source & Credits</h2>
+                        <h3>Special thanks for:</h3>
+                        <ul>
+                            <li><a href="http://getbootstrap.com/">Bootstrap</a></li>
+                            <li><a href="https://fonts.google.com/">Google Fonts</a></li>
+                            <li><a href="http://fontawesome.io/">Fontawsome</a></li>
+                            <li><a href="http://jquery.com/">jQuery</a></li>
+                            <li><a href="http://sergei1152.github.io/Starlight.js/">starlight.js</a></li>
+                            <li><a href="http://yiotis.net/filterizr/">firlterizr.js</a></li>
+                            <li><a href="https://unsplash.com/">Unsplash</a></li>
+                            <li><a href="developer.here.com/mapAPIs‎">Google Map</a></li>
+                        </ul>
+                        <br><br><br><br><br><br><br> &nbsp;
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!--  End
+			============================================= -->
+
+
+    <!-- JS Files -->
+    <script type="text/javascript" src="../HTML/js/jquery-2.2.3.min.js"></script>
+    <script type="text/javascript" src="../HTML/js/bootstrap.min.js"></script>
+
+    <style>
+        #overlay {
+            background-color: rgba(0, 0, 0, 0.8);
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left 0;
+            margin: 0 auto;
+            width: 100%;
+            height: 100;
+            z-index: 9999;
+            text-align: center;
+        }
+        #overlay img {
+           max-height: 90%;  
+    max-width: 90%;  
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;  
+        }
+        .close-botton{
+            color: #000;
+            font-size: 25px;
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            right: 0;
+            top: 0;
+            background-color: #fff;
+            text-decoration: none!important;
+            padding: 4px;
+        }
+    </style>
+    <script>
+        var $overlay = $('<div id="overlay"></div>');
+        var $img = $("<img>");
+        var $closeExtra = $('<a class="close-botton">X</a>');
+
+        $overlay.append($img);
+        $overlay.append($closeExtra);
+        
+
+        $("img").click(function(event) {
+                event.preventDefault();
+                $("body").append($overlay);
+                var $imgLocation = $(this).attr("src");
+
+                $img.attr("src", $imgLocation);
+
+                console.log($imgLocation);
+
+                $overlay.show();
+        });
+        
+        $overlay.click(function(){
+            
+            $overlay.hide();
+        });
+        
+        $closeExtra.click(function(){
+            
+            $overlay.hide();
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+/*==================================================
+=        Pavane Coming Soon Responsive             =
+==================================================*/
+
+
+/* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+        .row-eq-height {
+            flex-flow: column nowrap;
+        }
+        footer:before {
+            display: none !important;
+        }
+        .footer-wrapper {
+            margin: 0;
+        }
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+        .wrapper90 {
+            margin: 2%;
+        }
+
+        .wrapper80 {
+            margin: 0 5%;
+        }
+
+        .wrapper70 {
+            margin: 0 10%;
+        }
+
+        .wrapper60 {
+            margin: 0 15%;
+        }
+
+        .wrapper50 {
+            margin: 0 20%;
+        }
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+        .wrapper90 {
+            margin: 2%;
+        }
+
+        .wrapper80 {
+            margin: 0 3%;
+        }
+
+        .wrapper70 {
+            margin: 0 5%;
+        }
+
+        .wrapper60 {
+            margin: 0 10%;
+        }
+
+        .wrapper50 {
+            margin: 0 15%;
+        }
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+        
+    }
